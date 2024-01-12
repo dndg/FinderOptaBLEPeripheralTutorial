@@ -172,29 +172,28 @@ Una volta compilato e caricato lo sketch sul Finder Opta, è possibile
 utilizzare l'app [nRF
 Connect](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile)
 per connettersi alla Peripheral BLE e scrivere un comando nella Characteristic.
-
 Al termine della scansione il Finder Opta comparirà tra i dispositivi
 disponibili:
 
-<img src="assets/nrf1.jpg" width=250>
+<img src="assets/nrf1.jpg" width=250 alt="Screenshot di nRF Connect">
 
 Procediamo connettendoci e vedremo apparire un Service e una Characteristic con
 gli UUID assegnati dallo sketch:
 
-<img src="assets/nrf2.jpg" width=250>
+<img src="assets/nrf2.jpg" width=250 alt="Screenshot di nRF Connect">
 
 A questo punto clicchiamo sull'icona con freccia che punta verso l'alto per
 effetuare una scrittura. Gli screenshot seguenti mostrano ad esempio come
 accendere il LED 0 e il LED 3:
 
-<img src="assets/nrf3.jpg" width=250>
+<img src="assets/nrf3.jpg" width=250 alt="Screenshot di nRF Connect">
 
-<img src="assets/nrf5.jpg" width=250>
+<img src="assets/nrf5.jpg" width=250 alt="Screenshot di nRF Connect">
 
 Infine questo ultimo screenshot mostra come accendere tutti i LED del Finder
 Opta con un singolo comando:
 
-<img src="assets/nrf4.jpg" width=250>
+<img src="assets/nrf4.jpg" width=250 alt="Screenshot di nRF Connect">
 
 ## Conclusioni
 

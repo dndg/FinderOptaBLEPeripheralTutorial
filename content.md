@@ -172,28 +172,27 @@ Once the sketch has been compiled and uploaded to the Finder Opta, we can use
 the  [nRF
 Connect](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile)
 app to connect to the BLE Peripheral and write a command inside the
-Characteristic.
+Characteristic. At the end of a scan, the Finder Opta will appear among the
+available devices:
 
-At the end of a scan, the Finder Opta will appear among the available devices:
-
-<img src="assets/nrf1.jpg" width=250>
+<img src="assets/nrf1.jpg" width=250 alt="Screenshot of nRF Connect">
 
 We then proceed by connecting to the device, after which we see a Service and a
 Characteristic with UUIDs matching the ones assigned by the sketch:
 
-<img src="assets/nrf2.jpg" width=250>
+<img src="assets/nrf2.jpg" width=250 alt="Screenshot of nRF Connect">
 
 Let's now click on the icon with the arrow pointing up in order to perform a
 write. The screenshots show examples of how to turn on LED 0 and LED 3:
 
-<img src="assets/nrf3.jpg" width=250>
+<img src="assets/nrf3.jpg" width=250 alt="Screenshot of nRF Connect">
 
-<img src="assets/nrf5.jpg" width=250>
+<img src="assets/nrf5.jpg" width=250 alt="Screenshot of nRF Connect">
 
 Finally, this last screenshot shows how to turn on all the LEDs of the Finder
 Opta with a single command:
 
-<img src="assets/nrf4.jpg" width=250>
+<img src="assets/nrf4.jpg" width=250 alt="Screenshot of nRF Connect">
 
 ## Conclusion
 
